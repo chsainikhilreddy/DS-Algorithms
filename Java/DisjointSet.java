@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 class uf {
-	int[] parent, rank;
+    int[] parent, rank;
     public uf (int n) {
         parent = new int[n + 1];
         rank = new int[n + 1];
