@@ -15,7 +15,7 @@ class SegTree {
 			int mid = (leftmost + rightmost) / 2;
 			lc = new SegTree(leftmost, mid, a);
 			rc = new SegTree(mid + 1, rightmost, a);
-			recalc();
+			sum = lc.sum + rc.sum;
 		}
 	}
 	public void recalc() {
