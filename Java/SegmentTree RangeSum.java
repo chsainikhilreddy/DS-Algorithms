@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 
-class SegTree {
+static class SegTree {
 	int leftmost, rightmost;
 	SegTree lc, rc;
 	int sum;
